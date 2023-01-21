@@ -1,0 +1,153 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.container-fluid{
+    padding: 3% 10% 7% 10%;
+}
+
+/* Navigation Bar */
+.navbar{
+    padding:0 0 4.5rem;
+}
+.navbar-brand{
+    font-family: 'Poppins';
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.nav-item{
+    padding: 0 24px;
+    margin-right: 2rem;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.main-title{
+    margin-top: 5rem;
+}
+#title-swayanshu{
+    font-family: 'Poppins';
+    font-size: 2.5rem;
+    font-weight: 900;
+    padding-right: 10px;
+
+    letter-spacing: 1px;
+}
+#title-connecting{
+    font-family: 'Poppins';
+    font-size: 2.5rem;
+    font-weight: 300;
+    letter-spacing: 1.5px;
+}
+.title-image{
+    width: 90%;
+}
+.tagline{
+    font-style: italic;
+    font-weight: 300;
+}
+.title-text{
+    font-size: 1.2rem;
+    margin: 2.5rem 300px 24px 0;
+}
+.enroll{
+    color: grey;
+    font-style: italic;
+}
+.btn-group{
+    width: 40%;
+    
+}
+.title-bg{
+    width:100%;
+    height: 90%;
+    z-index:-1;
+    position:absolute;
+}
+/* Resources */
+
+#resources{
+    padding: 7% 10%;
+    
+}
+.resources-title{
+    font-weight: 700;
+    font-family: 'Poppins';
+    padding-bottom: 5%;
+}
+
+.card-body{
+    background-color: #0c0c40;
+    color: #fff;
+    border-radius: 0 0 8px 8px;
+}
+
+/* Register Section */
+.register-text{
+    text-align: center;
+    padding-top: 20%;
+    line-height: 1.5em;
+}
+.register-text h2{
+    font-weight: 900;
+    font-style: bold;
+    font-size: 4rem;
+    color:#FC427B;
+}
+.register-text h2 span{
+    font-weight: 300;
+    font-size: 4rem;
+    color:#000000;
+}
+.register-now{
+    border-radius: 2rem;
+    font-weight: 700;
+    background-color: #FC427B;
+    border-color: #FC427B;
+}
+
+/* Footer */
+
+.footer-bg-img{
+    width:100%;
+    height:50%;
+    position:absolute;
+    z-index: -1;
+}
+.footer-logo{
+    font-size: 2.5rem;
+    font-weight: 500;
+    font-style: bold;
+}
+.copyright{
+    color: #8B8B8B;
+    padding-left: 8.5em;
+}
+.col-sm-6{
+    color: #8B8B8B;
+    text-align: right;
+    padding-top: 2.5em;
+}
+.membership{
+    color: #8B8B8B;
+    text-align: left;
+    padding: 2.5rem 3rem;
+}
+.membership a{
+    display: block;
+    line-height: 2rem;
+    cursor: pointer;
+}
+.footer-link{
+    color: #8B8B8B;
+    display: block;
+    line-height: 2rem;
+    cursor: pointer;
+    text-decoration: none;
+}
+.footer-link:hover{
+    color:#000000;
+}
